@@ -2,8 +2,6 @@
 
 Projeto desenvolvido em **Java 17** com Maven, atendendo os requisitos do teste prático.
 
----
-
 ## 📦 Como gerar o `.jar`
 
 Na raiz do projeto, rode o comando:
@@ -18,8 +16,6 @@ Isso vai gerar o arquivo:
 target/industria-funcionarios-1.0.0.jar
 ```
 
----
-
 ## ▶️ Como executar o `.jar`
 
 Depois de gerado, execute:
@@ -28,14 +24,10 @@ Depois de gerado, execute:
 java -jar target/industria-funcionarios-1.0.0.jar
 ```
 
----
-
 ## 🔍 Pré-requisitos
 
 - **Java 17+** instalado (`java -version`)
 - **Maven 3.8+** instalado (`mvn -version`)
-
----
 
 ## 📂 Estrutura do projeto
 
@@ -43,8 +35,6 @@ java -jar target/industria-funcionarios-1.0.0.jar
 - `Funcionario.java` → Herda de `Pessoa`, com `salario` e `funcao`
 - `Principal.java` → Contém a `main` e implementa todos os requisitos do teste
 - `pom.xml` → Configuração Maven (gera `.jar` executável)
-
----
 
 ## ✨ Funcionalidades implementadas
 
@@ -58,9 +48,7 @@ java -jar target/industria-funcionarios-1.0.0.jar
 - Ordenação alfabética (3.10)
 - Soma total dos salários (3.11)
 - Equivalência em salários mínimos (3.12)
-
----
-
+  
 ## 📜 Observações
 - Os formatos seguem padrão brasileiro:
   - **Datas** → `dd/MM/yyyy`
